@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- Mybatis 관련 환경설정은 Spring Bean Configuration File에서 작성 -->
+<!-- => Mybatis 실행 환경 관련 엘리먼트(settings)만 설정 -->
+<configuration>
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="false"/>
+		<setting name="jdbcTypeForNull" value="NULL"/>
+		<setting name="callSettersOnNulls" value="true"/>
+	</settings>
+</configuration>
